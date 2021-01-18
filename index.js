@@ -1,6 +1,20 @@
 const responses = require('./files/responses');
 
+const GphApiClient = require('giphy-js-sdk-core');
+
+const giphy = GphApiClient("PsIkGu7c8LH2hPikGQOe0LyvBowg8Cpv");
 module.exports = {
+    gif: (query, url, error) => {
+        giphy.search('gifs', { "q": query }).then((response) => {
+            var totalRespose = response.data.length;
+            var responseIndex = Math.floor((Math.random() * 10) + 1) % totalRespose;
+            var responseFinal = response.data[responseIndex];
+
+            url(responseFinal.images.fixed_height.url);
+        }).catch((err) => {
+            error(err);
+        });
+    },
     loveCount: (name1, name2, love, err) => {
         if (!name1 || !name2) {
             return err("Give both name");
