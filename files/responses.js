@@ -19,7 +19,8 @@ module.exports = {
         "Without a doubt",
         "Yes",
         "Yes – definitely",
-        "You may rely on it"
+        "You may rely on it",
+        "Its hard to say"
     ],
     truth: [
         "When was the last time you lied?",
