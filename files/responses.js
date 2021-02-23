@@ -177,10 +177,19 @@ module.exports = {
         "Have you ever peed in the swimming pool?",
         "If you could marry one teacher in the school, who would you pick and why?",
         "Have you ever lied to your best friend?",
-        "What he craziest thing that you have ever done without your parents knowing?",
+        "What's the craziest thing you have ever done without your parents knowing?",
         "What would you do if your parents left the house to you for a whole week?",
         "What is your favourite song that is out right now?",
-        "Could you go two months without talking to your friends?"
+        "Could you go two months without talking to your friends?",
+        "What was the luckiest moment of your life?",
+        "What was the unluckiest moment of your life?",
+        "When was the last time you were grounded? Why?",
+        "What's the worst word you know?",
+        "Do you prefer Capitalism or Communism? Why?",
+        "What's the unhealthiest food you've ever eaten?",
+        "What time is it for you right now?",
+        "Would you consider dating anyone in this room?",
+        "What's your favorite video game?"
     ],
     dare: [
         "Show the most embarrassing photo on your phone",
@@ -286,6 +295,15 @@ module.exports = {
         "Ask your crush out on a date",
         "Put the socks of the person to your right in your mouth",
         "Take a selfie with your finger up your nose and post it to all your social media",
-        "Lick a car tire."
+        "Lick a car tire.",
+        "Send a screenshot of your DMs with someone in this room.",
+        "Break up with your partner.",
+        "Ask someone from this room out on a date.",
+        "DM someone you like them and send a screenshot.",
+        "Send a photo of your hand.",
+        "Sit in the lovers VC alone for an hour unmuted and undeafened.",
+        "Attempt to speedrun a video game and send a video.",
+        "Skip your next homework assignment.",
+        "Next time you have to send a link to a teacher, re-direct it to Rick Astley's Never Gonna Give You Up"
     ]
 }
